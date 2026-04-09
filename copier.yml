@@ -6,3 +6,5 @@ package_name:
   type: str
   default: "{{ project_name.lower().replace('-', '_') }}"
   when: false
+
+_templates_suffix: .jinja
